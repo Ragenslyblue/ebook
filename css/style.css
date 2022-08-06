@@ -1,0 +1,473 @@
+.page{
+    width: 960px;
+    margin: 0px auto;
+}
+.h1{
+    text-align:center;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: snap itc, century gothic;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    margin-right: 450px;  
+    border-radius: 10px;      
+}
+.h1:hover{
+    transform: scale(2.1);
+}
+body{
+	background-image: url('../image1/beelzebub.jpg');
+    color: white;
+    padding: 100px,0,100px,0 !important; 
+    text-align: center;
+    font-family: "arial", sans-serif, "times new roman";
+    font-size: 12;
+    margin: 0px;
+    background-size: 1000px; 
+}
+ul {
+    list-style-type: none;
+    overflow: hidden; 
+	display: table-footer-group;
+    text-align: center;   
+}
+li {
+    display: inline;
+    font-size: 14px;
+}
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+form#lookup.search_form{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    background-color: blue;
+}
+.txtsearch{
+  	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  	display: inline;
+	color: violet;
+    border-radius: 10px;
+    font-family: snap itc, century gothic;
+    width: 500px;	 	
+}
+input#query.search_button{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   	display: inline;
+    color: violet;
+    border-radius: 10px;
+}
+ul.carousel{
+    display: inline;
+}
+div.home{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    display: inline;
+    margin-left: 30px;
+}
+div.home a:hover {
+    border: 1px solid #0000ff;
+}
+    div.desc{
+        text-align: center;
+        font-weight: normal;
+        width: 120px;
+        margin: 0;
+    }
+    input.char{
+        margin-bottom: 50px;
+    }
+    input.char1{
+        margin-bottom: 50px;
+    }
+    a {
+    	float: left;
+    	width: 6em;
+    	text-decoration: none;
+   	 	color: white;
+    	background-color: purple;
+    	padding: 0.2em 0.6em;
+    	border-right: 1px solid white;
+        border-left: 1px solid white;
+        margin-left: 3px;
+        border-top: 1px solid white;
+		border-bottom: 1px solid white;
+        border-radius: 10px;
+	}
+	a:hover {
+		background-color: #ff3300;
+	}
+    h4{
+       text-align: center;
+    }
+    .clear_both{
+        clear: both;
+    }
+    
+    .thumbnail{
+        padding: 20px;  
+        text-align: center;
+    }
+     .featured{
+		margin-left: 500px;
+		font-family: algerian;
+		color: green;
+		
+	}
+    .latest{
+		text-align: center;
+		color: purple;
+		font-family: algerian;
+        margin-right: 190px;
+    }
+    .title{
+		font-size: 25;
+		color: yellow;
+		font-family: snap itc;
+        text-decoration: underline;
+        margin-top: 50px;
+        transition: all 0.3s ease 0s;
+		width: 100%;
+	}
+    .title:hover{
+        transform: scale(2.1);
+    }
+    .text{
+		padding: 30px;
+		color: whitesmoke;
+		font-family: forte;
+		font-size: 15;
+		background-color: purple;
+        border: 5px ridge pink;
+        margin: 50px;
+        border-radius: 40px;
+        border-color: whitesmoke;
+	}
+    .image{
+			padding: 0;
+	}
+	img{
+	       color: pink;
+            border-radius: 10px;
+            border: 5px ridge pink;
+			line-height:200px;
+			width: 90px;
+			height: 100px
+			padding: 10px 40px;
+            transition: all 0.4s ease 0s;
+			width: 70%;
+	}
+    img:hover{
+		transform: scale(1.5);
+	}
+    .date{
+			color: violet;
+			font-family: forte;
+            font-size: 14;
+            text-decoration: underline;
+            transition: all 0.3s ease 0s;
+			width: 100%;
+	}
+    .date:hover{
+            transform: scale(2.1);
+    }
+    .publish{
+			color: yellow;
+			font-family: forte;
+			font-size: 14;
+            text-decoration: underline;
+            transition: all 0.3s ease 0s;
+			width: 100%;
+	}
+    .publish:hover{
+            transform: scale(2.1);
+    }
+	.copyright{
+			color: red;
+			font-family: forte;
+			font-size: 14;
+            text-decoration: underline;
+            transition: all 0.3s ease 0s;
+			width: 100%;
+	}
+    .copyright:hover{
+            transform: scale(2.1);
+    }
+    .copyrightcom{
+			color: pink;
+			font-family: forte;
+			font-size: 14;
+            text-decoration: underline;
+            transition: all 0.3s ease 0s;
+			width: 100%;
+	}
+    .copyrightcom:hover{
+            transform: scale(2.1);
+    }
+    .datesaved{
+			color: green;
+			font-family: forte;
+			font-size: 14;
+            text-decoration: underline;
+            transition: all 0.3s ease 0s;
+			width: 100%;
+	}
+    .datesaved:hover{
+            transform: scale(2.1);
+    }
+    .comment{
+			color: whitesmoke;
+			font-family: forte;
+			font-size: 14;
+			padding: 19px;
+            transition: all 0.3s ease 0s;
+			width: 100%;
+	}
+    .comment:hover{
+            transform: scale(1.5);
+    }
+	.name{
+			color: violet;
+			font-family: forte;
+			font-size: 14;
+			padding: 8px;
+           
+	}
+	.comment2{
+			color: violet;
+			font-family: forte;
+			font-size: 14;
+            
+	}
+    .comment_button{
+			color: aqua;
+			padding: 4px;
+            border-radius: 10px;
+            font-family: snap itc, century gothic;
+	}
+	div.about{
+	       color: aqua;
+           font-family: forte;
+           text-decoration: underline;
+           margin-left: 498px;
+           margin-top: 100px;
+	}
+    div.contact{
+            color: aqua;
+            font-family: forte;
+            text-decoration: underline;
+            padding: 50px;
+			margin-left: 447px;
+    }
+    div.like_us{
+            color: aqua;
+            font-family: forte;
+            text-decoration: underline;
+            margin-left: 499px;
+    }
+    .txtBook{
+		border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        border: 8px ridge violet;
+        margin-top: 30px;	
+	}
+    .txtText{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        border: 8px ridge violet;
+        width: 500px;
+        height: 500px;
+    }
+    .txtpic{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: yellow;
+        
+    }
+    .txtDatePub{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        border: 8px ridge violet;
+    }
+    .txtPublish{
+         border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        border: 8px ridge violet;
+    }
+    .txtDate{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        border: 8px ridge violet;
+    }
+    .txtCompany{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        border: 8px ridge violet;
+    }
+    .txtSelectStory{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        border: 8px ridge violet;
+    }
+    .txtSelectAuthor{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        border: 8px ridge violet;
+    }
+    .save{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        margin-top: 20px;
+    }
+    .cancel{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        margin-top: 20px;
+    }
+    .clear{
+        border-radius: 10px;
+		font-family: snap itc, century gothic;
+		color: purple;
+        margin-top: 20px;
+    }
+    .titleBook{
+        font-family: snap itc, century gothic;
+		color: yellow;
+        margin-top: 5px;
+    }
+    .Text2{
+        font-family: snap itc, century gothic;
+		color: yellow;
+    }
+    .coverPic{
+        font-family: snap itc, century gothic;
+		color: yellow;
+    }
+    .datePub{
+        font-family: snap itc, century gothic;
+		color: yellow;
+    }
+    .pubCom{
+        font-family: snap itc, century gothic;
+		color: yellow;
+    }
+    .copyDate{
+        font-family: snap itc, century gothic;
+		color: yellow;
+    }
+    .copyCom{
+        font-family: snap itc, century gothic;
+		color: yellow;
+    }
+    .selectStory{
+        font-family: snap itc, century gothic;
+		color: yellow;
+    }
+    .selectAuthor{
+        font-family: snap itc, century gothic;
+		color: yellow;
+    }
+    .radbtnGender{
+        margin-top: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .txtname{
+        width: 200px;
+        border-radius: 10px;
+        font-family: snap itc, century gothic;
+        color: aqua;
+    }
+    .aboutUs{
+        font-family: snap itc, century gothic;
+    }
+    .aboutText{
+        border-radius: 20px;
+        margin-bottom: 50px;
+		padding: 30px;
+    }
+    .from{
+        border-radius: 10px;
+        margin-right: 125px;
+    }
+    .subject{
+        border-radius: 10px;
+        margin-right: 140px;
+    }
+    .message{
+        border-radius: 10px;        
+    }
+    .submit_feedback{
+        border-radius: 10px;
+        margin-left: 45px;
+    }
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;    
+    background-color: yellowgreen;
+    padding: 10px;
+    
+}
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;  
+}
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; 
+}
+#nav li {
+	float: left; 
+}
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; 
+}
+#nav li:first-child a {
+	border-left: 1px solid #ccc; 
+}
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; 
+}
